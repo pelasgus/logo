@@ -1,3 +1,8 @@
+# Logotype
+## Abstcact
+
+$\Pi_{\text{logotype}} = \{ (x, y) \mid x^2 + y^2 = 100^2 \} \cup \{ (x, y) \mid -\alpha \leq x \leq \alpha, \, y = \beta \} \cup \{ (x, y) \mid x = -\alpha, \, -\beta \leq y \leq \beta \} \cup \{ (x, y) \mid x = \alpha, \, -\beta \leq y \leq \beta \}$
+
 ### The Circle
 At the heart of this geometric composition lies a circle, centred at the origin of a coordinate plane, with a radius of $100$ units. The equation governing this circle, though implicit in the SVG, can be derived as follows:
 
