@@ -1,7 +1,22 @@
 # Logotype
 ## Abstcact
 
-$\Pi_{\text{logotype}} = \{ (x, y) \mid x^2 + y^2 = 100^2 \} \cup \{ (x, y) \mid -\alpha \leq x \leq \alpha, \, y = \beta \} \cup \{ (x, y) \mid x = -\alpha, \, -\beta \leq y \leq \beta \} \cup \{ (x, y) \mid x = \alpha, \, -\beta \leq y \leq \beta \}$
+
+- $R$ represent the radius of the circle.
+- $\alpha$ and $\beta$ be the coordinates of the endpoints for the $\pi$ symbol’s lines.
+
+> [!NOTE]
+> The equation will reflect any circle of radius $R$ and a $\Pi$ symbol scaled to fit within it.
+
+$$
+\Pi_{\text{logotype}} = \{ (x, y) \mid x^2 + y^2 = R^2 \} \cup \{ (x, y) \mid -\alpha \leq x \leq \alpha, \, y = \beta \} \cup \{ (x, y) \mid x = -\alpha, \, -\beta \leq y \leq \beta \} \cup \{ (x, y) \mid x = \alpha, \, -\beta \leq y \leq \beta \}
+$$
+
+### Explanation of the Parameters:
+1. **Circle**: $(x, y) \mid x^2 + y^2 = R^2$ describes a circle centered at the origin with radius $R$.
+2. **Horizontal Line of Pi**: $(-\alpha \leq x \leq \alpha, \, y = \beta)$ describes a horizontal line segment positioned at $y = \beta$, spanning between $-\alpha$ and $\alpha$.
+3. **Left Vertical Line of Pi**: $(x = -\alpha, \, -\beta \leq y \leq \beta)$ describes a vertical line at $x = -\alpha$, running from $y = -\beta$ to \$y = \beta$.
+4. **Right Vertical Line of Pi**: $(x = \alpha, \, -\beta \leq y \leq \beta)$ describes a vertical line at $x = \alpha$, also running from $y = -\beta$ to $y = \beta$.
 
 ### The Circle
 At the heart of this geometric composition lies a circle, centred at the origin of a coordinate plane, with a radius of $100$ units. The equation governing this circle, though implicit in the SVG, can be derived as follows:
